@@ -35,3 +35,10 @@ If you are upgrading from growboxpi v1, check out the migration guide in the doc
 - CONSTANT: constant vegetation and flowering amount per day DEFAULT
 - LINEAR: linearly increasing in vegetation until kept constant throughout flowering
 - MIN_MAX: increasing linearly from minimum amount until maximum amount is reached
+
+
+Dependencies:
+<code>sudo aptitude install libav-tools gpac imagemagick
+sudo aptitude install sqlite3 lighttpd
+sudo aptitude install build-essential python-dev python-openssl
+</code>
